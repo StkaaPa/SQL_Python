@@ -1,0 +1,5 @@
+transaction_id,account_id,transaction_date,transaction_type,amount
+1,1001,2026-06-01,DEPOSIT,1000
+2,1001,2026-06-01,WITHDRAWAL,200
+3,1002,2026-06-01,DEPOSIT,500
+4,1003,2026-06-01,WITHDRAWAL,-50
