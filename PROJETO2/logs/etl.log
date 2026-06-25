@@ -1,0 +1,16 @@
+2026-06-25 01:49:49,836 - INFO - Início do ETL
+2026-06-25 01:49:49,836 - INFO - A ler CSV
+2026-06-25 01:49:49,840 - INFO - A carregar dados para STG_TRANSACTIONS_PROJ2
+2026-06-25 01:49:50,077 - INFO - 4 registos carregados na tabela staging
+2026-06-25 01:49:50,077 - INFO - A validar dados
+2026-06-25 01:49:50,083 - INFO - A carregar dados para TRANSACTIONS_PROJ2
+2026-06-25 01:49:50,150 - INFO - 3 registos carregados na tabela target
+2026-06-25 01:49:50,150 - INFO - ETL concluído com sucesso!
+2026-06-25 01:56:10,413 - INFO - Início do ETL
+2026-06-25 01:56:10,413 - INFO - A ler CSV
+2026-06-25 01:56:10,415 - INFO - A carregar dados para STG_TRANSACTIONS_PROJ2
+2026-06-25 01:56:10,538 - INFO - 4 registos carregados na tabela staging
+2026-06-25 01:56:10,541 - INFO - A validar dados
+2026-06-25 01:56:10,541 - INFO - A carregar dados para TRANSACTIONS_PROJ2
+2026-06-25 01:56:10,711 - INFO - 3 registos carregados na tabela target
+2026-06-25 01:56:10,711 - INFO - ETL concluído com sucesso!

@@ -41,7 +41,7 @@ def load_target(df):
     engine = get_engine()
 
     df.to_sql(
-        "stg_transactions_proj2",
+        "transactions_proj2",
         engine,
         if_exists = "replace",
         index=False
