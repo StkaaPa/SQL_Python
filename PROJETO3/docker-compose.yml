@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: postgres:18
+
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWO: airflow
+      POSTGRES_DB: airflow
+    
+    volumes:
+      - postgres-db-volume:/var/lib/postgresql/data
+    
+    ports:
+      - "5432:5432"
+
+volumes:
+  postgres-db-volume:
