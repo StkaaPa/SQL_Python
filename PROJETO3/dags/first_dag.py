@@ -6,6 +6,8 @@ from airflow.operators.python import PythonOperator
 
 def dizer_ola():
     print("Olá! Este é o meu primeiro PythonOperator!")
+    print("O Airflow está a executar código python")
+    print("Projeto 3 em andamento!")
 
 with DAG(
     dag_id="first_dag",
@@ -18,7 +20,7 @@ with DAG(
         task_id="inicio"
     )
 
-    preparar=EmptyOperator(
+    preparar=PythonOperator(
         task_id="preparar",
         python_callable=dizer_ola,
     )
