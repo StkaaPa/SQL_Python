@@ -17,7 +17,7 @@ with DAG(
 ) as dag:
 
     inicio=EmptyOperator(
-        task_id="Inicio"
+        task_id="inicio",
     )
 
     validar = PythonOperator(
@@ -37,11 +37,11 @@ with DAG(
 
     carregar=PythonOperator(
         task_id="carregar_csv",
-        python_callable=carregar_csv
+        python_callable=carregar_csv,
     )
 
     fim=EmptyOperator(
-        task_id="fim"
+        task_id="fim",
     )
 
 inicio>>validar>>extrair>>transformar>>carregar>>fim
