@@ -1,13 +1,14 @@
-from src.extract import ler_csv
-from src.validation import validar_csv
-from src.load import carregar_csv
-from src.transform import transformar_csv
 from datetime import datetime
 
 from airflow import DAG
 from airflow.operators.empty import EmptyOperator
 from airflow.operators.python import PythonOperator
-    
+
+from src.extract import ler_csv
+from src.validation import validar_csv
+from src.load import carregar_csv
+from src.transform import transformar_csv
+
 with DAG(
     dag_id="clientes_dag",
     start_date=datetime(2026,8,1),
