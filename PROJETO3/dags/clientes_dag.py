@@ -44,4 +44,4 @@ with DAG(
         task_id="fim",
     )
 
-inicio>>validar>>extrair>>transformar>>carregar>>fim
+    inicio>>validar>>extrair>>transformar>>carregar>>fim
