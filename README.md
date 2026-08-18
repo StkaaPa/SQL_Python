@@ -1,28 +1,32 @@
 # SQL_Python - Data Engineering Projects
 
-Este repositório reúne uma sequência de projetos práticos desenvolvidos com o objetivo de evoluir competências na área de Data Engineering, começando por um processo ETL simples em Python e evoluindo progressivamente para pipelines estruturados e orquestrados com Apache Airflow.
+Este repositório reúne uma sequência de projetos práticos desenvolvidos com o objetivo de evoluir competências na área de Data Engineering.
 
-A abordagem seguida foi incremental: cada projeto introduz novos conceitos e tecnologias, aproveitando a base construída no projeto anterior.
+A evolução é incremental, começando por um processo ETL simples em Python e avançando para pipelines mais estruturados e, posteriormente, para a sua orquestração com Apache Airflow.
+
+Cada projeto introduz novos conceitos e tecnologias, aproveitando a base construída no projeto anterior.
 
 🎯 Objetivo
+
 O objetivo destes projetos é construir, de forma prática, uma base sólida em:
 
 Processos ETL (Extract, Transform, Load)
--> Python aplicado a Data Engineering
--> Manipulação e transformação de dados com Pandas
--> PostgreSQL
--> Staging Tables
--> Data Quality e validação de dados
--> Logging e controlo de processos
--> Orquestração de pipelines
--> Apache Airflow
--> Docker e Docker Compose
--> XComs no Airflow
--> PostgreSQL integrado com Airflow
--> Arquiteturas de pipelines de dados
+Python aplicado a Data Engineering
+Pandas para manipulação e transformação de dados
+SQL e PostgreSQL
+Data Validation
+Staging Tables
+Logging
+Control Tables
+Orquestração de pipelines
+Apache Airflow
+Docker e Docker Compose
+XComs
+Redis e Celery
+Arquitetura de pipelines de dados
 
 📚 Projetos
-Projeto	    Tema	                    Principais tecnologias
-     01	    ETL básico	                Python, Pandas, SQLAlchemy, PostgreSQL
-     02	    ETL estruturado	            Python, Pandas, PostgreSQL, Staging, Logging
-     03	    Orquestração de pipelines	Apache Airflow, Docker, PostgreSQL, Redis, Celery
+Projeto Tema Principais tecnologias
+01 ETL Básico Python, Pandas, SQLAlchemy, PostgreSQL
+02 ETL Estruturado Python, Pandas, PostgreSQL, Staging, Logging
+03 Orquestração de Pipelines Apache Airflow, Docker, PostgreSQL, Redis, Celery
