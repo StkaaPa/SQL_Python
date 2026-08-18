@@ -21,13 +21,8 @@ Processos ETL (Extract, Transform, Load)
 -> PostgreSQL integrado com Airflow
 -> Arquiteturas de pipelines de dados
 
-A evolução dos projetos pode ser resumida da seguinte forma:
-
-Projeto 1
-Python + Pandas + PostgreSQL
-
-Projeto 2
-ETL estruturado + Staging + Logging + Control
-
-Projeto 3
-Airflow + Docker + PostgreSQL + Redis/Celery
+📚 Projetos
+Projeto	    Tema	                    Principais tecnologias
+     01	    ETL básico	                Python, Pandas, SQLAlchemy, PostgreSQL
+     02	    ETL estruturado	            Python, Pandas, PostgreSQL, Staging, Logging
+     03	    Orquestração de pipelines	Apache Airflow, Docker, PostgreSQL, Redis, Celery
