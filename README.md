@@ -28,5 +28,5 @@ O objetivo destes projetos é construir, de forma prática, uma base sólida em:
 📚 Projetos
 
 - 01 - ETL Básico - Python, Pandas, SQLAlchemy, PostgreSQL
-- 02 ETL Estruturado - Python, Pandas, PostgreSQL, Staging, Logging
-- 03 Orquestração de Pipelines - Apache Airflow, Docker, PostgreSQL, Redis, Celery
+- 02 - ETL Estruturado - Python, Pandas, PostgreSQL, Staging, Logging
+- 03 - Orquestração de Pipelines - Apache Airflow, Docker, PostgreSQL, Redis, Celery
