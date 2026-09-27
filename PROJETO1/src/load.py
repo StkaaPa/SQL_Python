@@ -5,7 +5,7 @@ def load(df):
     print("A carregar dados para PostgreSQL...")
 
     engine = create_engine(
-        "postgresql://postgres:***@localhost:5432/bankingDW"
+        "postgresql://postgres:***@localhost:5432/banking_dw"
     )
 
     df.to_sql(
