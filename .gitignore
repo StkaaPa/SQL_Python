@@ -1,1 +1,5 @@
 .vscode/settings.json
+
+#credenciais
+PROJETO2/config.py
+PROJETO3/src/config.py
